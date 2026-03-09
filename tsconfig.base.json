@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "paths": {
+      "@housing/shared-types": ["packages/shared-types/src/index.ts"],
+      "@housing/room-modules": ["packages/room-modules/src/index.ts"],
+      "@housing/systems-engine": ["packages/systems-engine/src/index.ts"],
+      "@housing/materials-library": ["packages/materials-library/src/index.ts"]
+    }
+  }
+}
